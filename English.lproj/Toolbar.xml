@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<toolbar>
+	<identifier>XmlToolbar</identifier>
+	<sizemode>NSToolbarSizeModeSmall</sizemode>
+	<displaymode>NSToolbarDisplayModeIconOnly</displaymode>
+	<autosavesconfiguration/>
+	<allowsusercustomization/>
+	<showsbaselineseparator/>
+	
+	<toolbaritem>
+		<label>Edit</label>
+		<palettelabel>Edit</palettelabel>
+		<tooltip>Edit Something</tooltip>
+		<image>NotePad.tiff</image>
+		<notification>Edit</notification>
+	</toolbaritem>
+	<toolbaritem>
+		<label>Calendar</label>
+		<palettelabel>Calendar</palettelabel>
+		<tooltip>Open up iCal</tooltip>
+		<image>Calendar.tiff</image>
+		<notification>Open Calendar</notification>
+	</toolbaritem>
+	<toolbaritem>
+		<label>Email</label>
+		<palettelabel>Email</palettelabel>
+		<tooltip>Send an email</tooltip>
+		<image>Envelope.tiff</image>
+		<notification>Send Email</notification>
+	</toolbaritem>
+</toolbar>
