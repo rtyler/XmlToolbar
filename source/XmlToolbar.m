@@ -114,9 +114,10 @@
 {
 	NSMutableDictionary *items = [[NSMutableDictionary alloc] init];
 	NSError *error = nil;
+	int i = 0;
 	NSArray *nodes = [[xmlDocument rootElement] nodesForXPath:@"//toolbaritem" error:&error];
 		
-	for (int i = 0; i < [nodes count]; ++i)
+	for (i = 0; i < [nodes count]; ++i)
 	{
 		NSXMLElement *element = [nodes objectAtIndex:i];
 		NSString *identifierAndLabel = [[[element elementsForName:@"label"] objectAtIndex:0] stringValue];

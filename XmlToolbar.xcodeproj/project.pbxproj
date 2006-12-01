@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		2F101ECF0AEC486C003431C3 /* NotePad.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2F101ECE0AEC486C003431C3 /* NotePad.tiff */; };
+		2F42DF470B1FA82E008A5D85 /* XmlToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBC91FE0AEB606000034674 /* XmlToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F42DF480B1FA832008A5D85 /* XmlToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5B37A50AEB4E6C006BC5A0 /* XmlToolbarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F42DF4B0B1FA840008A5D85 /* XmlToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87DABC0AF0FCC500F65471 /* XmlToolbar.m */; };
+		2F42DF4C0B1FA840008A5D85 /* XmlToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B37A60AEB4E6C006BC5A0 /* XmlToolbarItem.m */; };
+		2F42DF5C0B1FA896008A5D85 /* Toolbar.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2F98C5A50B1668A8007E5ADC /* Toolbar.framework */; };
+		2F42DF620B1FA8C9008A5D85 /* Toolbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F98C5A50B1668A8007E5ADC /* Toolbar.framework */; };
 		2F5B37950AEB4D58006BC5A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B37940AEB4D58006BC5A0 /* main.m */; };
 		2F5B37A10AEB4E2E006BC5A0 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B37A00AEB4E2E006BC5A0 /* MainController.m */; };
-		2F5B37A70AEB4E6C006BC5A0 /* XmlToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B37A60AEB4E6C006BC5A0 /* XmlToolbarItem.m */; };
 		2F83DAFD0AEB499700097BF7 /* Toolbar.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2F83DAFB0AEB499700097BF7 /* Toolbar.xml */; };
-		2F87DABD0AF0FCC500F65471 /* XmlToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87DABC0AF0FCC500F65471 /* XmlToolbar.m */; };
 		2FBC91E80AEB5E0700034674 /* Calendar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2FBC91E60AEB5E0700034674 /* Calendar.tiff */; };
 		2FBC91E90AEB5E0700034674 /* Envelope.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2FBC91E70AEB5E0700034674 /* Envelope.tiff */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F42DF540B1FA87F008A5D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F98C5A40B1668A8007E5ADC /* Toolbar */;
+			remoteInfo = Toolbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F42DF560B1FA887008A5D85 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F42DF5C0B1FA896008A5D85 /* Toolbar.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -35,19 +63,29 @@
 		2F5B37A60AEB4E6C006BC5A0 /* XmlToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XmlToolbarItem.m; path = source/XmlToolbarItem.m; sourceTree = "<group>"; };
 		2F83DAFC0AEB499700097BF7 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = English; path = English.lproj/Toolbar.xml; sourceTree = "<group>"; };
 		2F87DABC0AF0FCC500F65471 /* XmlToolbar.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = XmlToolbar.m; path = source/XmlToolbar.m; sourceTree = "<group>"; };
+		2F98C5A50B1668A8007E5ADC /* Toolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F98C5A60B1668A8007E5ADC /* Toolbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Toolbar-Info.plist"; sourceTree = "<group>"; };
 		2FBC91E60AEB5E0700034674 /* Calendar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Calendar.tiff; path = resources/Calendar.tiff; sourceTree = "<group>"; };
 		2FBC91E70AEB5E0700034674 /* Envelope.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Envelope.tiff; path = resources/Envelope.tiff; sourceTree = "<group>"; };
 		2FBC91FE0AEB606000034674 /* XmlToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmlToolbar.h; path = source/XmlToolbar.h; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* XmlToolbar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlToolbar_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* XmlToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmlToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* XmlToolbar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = XmlToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F98C5A30B1668A8007E5ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F42DF620B1FA8C9008A5D85 /* Toolbar.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* XmlToolbar.app */,
+				2F98C5A50B1668A8007E5ADC /* Toolbar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +138,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				2F98C5A60B1668A8007E5ADC /* Toolbar-Info.plist */,
 			);
 			name = XmlToolbar;
 			sourceTree = "<group>";
@@ -156,7 +196,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2F98C5A00B1668A8007E5ADC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F42DF480B1FA832008A5D85 /* XmlToolbarItem.h in Headers */,
+				2F42DF470B1FA82E008A5D85 /* XmlToolbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2F98C5A40B1668A8007E5ADC /* Toolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F98C5A70B1668A9007E5ADC /* Build configuration list for PBXNativeTarget "Toolbar" */;
+			buildPhases = (
+				2F98C5A00B1668A8007E5ADC /* Headers */,
+				2F98C5A10B1668A8007E5ADC /* Resources */,
+				2F98C5A20B1668A8007E5ADC /* Sources */,
+				2F98C5A30B1668A8007E5ADC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toolbar;
+			productName = Toolbar;
+			productReference = 2F98C5A50B1668A8007E5ADC /* Toolbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8D1107260486CEB800E47090 /* XmlToolbar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "XmlToolbar" */;
@@ -164,10 +234,12 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				2F42DF560B1FA887008A5D85 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2F42DF550B1FA87F008A5D85 /* PBXTargetDependency */,
 			);
 			name = XmlToolbar;
 			productInstallPath = "$(HOME)/Applications";
@@ -186,11 +258,19 @@
 			projectDirPath = "";
 			targets = (
 				8D1107260486CEB800E47090 /* XmlToolbar */,
+				2F98C5A40B1668A8007E5ADC /* Toolbar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F98C5A10B1668A8007E5ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,18 +287,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F98C5A20B1668A8007E5ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F42DF4B0B1FA840008A5D85 /* XmlToolbar.m in Sources */,
+				2F42DF4C0B1FA840008A5D85 /* XmlToolbarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2F5B37950AEB4D58006BC5A0 /* main.m in Sources */,
 				2F5B37A10AEB4E2E006BC5A0 /* MainController.m in Sources */,
-				2F5B37A70AEB4E6C006BC5A0 /* XmlToolbarItem.m in Sources */,
-				2F87DABD0AF0FCC500F65471 /* XmlToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F42DF550B1FA87F008A5D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F98C5A40B1668A8007E5ADC /* Toolbar */;
+			targetProxy = 2F42DF540B1FA87F008A5D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -248,6 +343,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2F98C5A80B1668A9007E5ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Toolbar-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Toolbar;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		2F98C5A90B1668A9007E5ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Toolbar-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Toolbar;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,6 +457,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F98C5A70B1668A9007E5ADC /* Build configuration list for PBXNativeTarget "Toolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F98C5A80B1668A9007E5ADC /* Debug */,
+				2F98C5A90B1668A9007E5ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "XmlToolbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
